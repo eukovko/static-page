@@ -1,9 +1,16 @@
+import Header from "./header/Header";
+import List from "./list/List";
+import Logo from "./logo/Logo";
+import React from "react";
+
 function App() {
-  return (
-    <div className="App">
-      <h1>This is my page</h1>
-    </div>
-  );
+    return (
+        <div>
+            <Logo/>
+            <Header/>
+            <List />
+        </div>
+    );
 }
 
-export default App;
+export default App
